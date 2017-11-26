@@ -1,3 +1,17 @@
+#Q1
+week=['Monday','Tuseday','Wednesday','Thursday','Friday','Saturday','Sunday']
+#第一种方法
+week[0:5]
+#第二种方法
+week[:-2]
+['Monday', 'Tuseday', 'Wednesday', 'Thursday', 'Friday']
+
+#Q2
+list((range(5,105,5)))
+list(range(101))[5::5]
+s=[(x+1)*5 for x in range(20)]
+
+#Q3
 #序列
 a=[5,6,4,8,3,21,1]
 for index,item in enumerate(a):
